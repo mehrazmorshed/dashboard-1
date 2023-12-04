@@ -14,7 +14,12 @@ a {
 li {
 	list-style: none;
 }
+
 h1,
 h2 {
 	color: #404040;
+}
+
+.side-menu {
+	position: fixed;
 }
