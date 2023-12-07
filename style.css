@@ -36,3 +36,16 @@ h2 {
 	align-items: center;
 	justify-content: center;
 }
+
+.side-menu li {
+	font-size: 24px;
+	padding: 10px 40px;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+.side-menu li:hover {
+	background: #fff;
+	color: #f05462;
+}
