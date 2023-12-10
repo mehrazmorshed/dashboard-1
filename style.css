@@ -65,4 +65,8 @@ h2 {
 	width: 80vw;
 	height: 10vh;
 	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
