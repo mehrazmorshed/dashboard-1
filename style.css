@@ -219,3 +219,9 @@ td {
 	display: flex;
 	flex-direction: column;
 }
+
+
+.container .content .content-2 .new-students table td:nth-child(1) img {
+	height: 40px;
+	width: 40px;
+}
