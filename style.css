@@ -49,3 +49,10 @@ h2 {
 	background: #fff;
 	color: #f05462;
 }
+
+.container {
+	position: absolute;
+	right: 0;
+	width: 80vw;
+	height: 100vh;
+}
