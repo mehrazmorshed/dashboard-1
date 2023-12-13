@@ -172,6 +172,7 @@ td {
 	position: relative;
 	margin-top: 10vh;
 	min-height: 90vh;
+	background: #f1f1f1;
 }
 
 .container .content .cards {
@@ -243,6 +244,11 @@ td {
 		width: 20px;
 		height: 20px;
 	}
+	.side-menu li:hover {
+		background: #f05462;
+		padding: 8px 38px;
+		border: 2px solid #fff;
+	}
 }
 
 @media screen and (max-width: 536px) {
@@ -251,5 +257,13 @@ td {
 	}
 	.container .content .cards {
 		justify-content: center;
+	}
+	.side-menu li img {
+		width: 30px;
+		height: 30px;
+	}
+	.container .content .content-2 .recent-payments table th:nth-child(2),
+	.container .content .content-2 .recent-payments table th:nth-child(2) {
+		display: none;
 	}
 }
